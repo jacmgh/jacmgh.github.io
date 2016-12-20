@@ -5,13 +5,19 @@
 }
 
 body {
+    max-width: 640px;
+    margin: 0 auto;
     padding: 1em;
+    color: #444;
     font: 100% Arial, sans-serif;
 }
 
+h2 {
+    margin-bottom: 20px;
+}
+
 ul {
-    max-width: 640px;
-    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 li {
@@ -19,7 +25,6 @@ li {
     padding: 1em;
     border: 1px solid #eee;
     background: #fafafa;
-    color: #444;
     list-style: none;
 }
 
